@@ -1,0 +1,120 @@
+[30-Sep-2015 23:49:55 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOSqlite\Driver' not found in /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/SQLiteConnection.php on line 46
+[30-Sep-2015 23:49:55 UTC] PHP Stack trace:
+[30-Sep-2015 23:49:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/artisan:0
+[30-Sep-2015 23:49:55 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/se-resturant/resturant/artisan:59
+[30-Sep-2015 23:49:55 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[30-Sep-2015 23:49:55 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[30-Sep-2015 23:49:55 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[30-Sep-2015 23:49:55 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[30-Sep-2015 23:49:55 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[30-Sep-2015 23:49:55 UTC] PHP   8. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[30-Sep-2015 23:49:55 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:70
+[30-Sep-2015 23:49:55 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:82
+[30-Sep-2015 23:49:55 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:111
+[30-Sep-2015 23:49:55 UTC] PHP  12. UpdateOrderTable->up() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:135
+[30-Sep-2015 23:49:55 UTC] PHP  13. Illuminate\Support\Facades\Schema::table() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:19
+[30-Sep-2015 23:49:55 UTC] PHP  14. Illuminate\Support\Facades\Facade::__callStatic() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:19
+[30-Sep-2015 23:49:55 UTC] PHP  15. Illuminate\Database\Schema\Builder->table() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:3269
+[30-Sep-2015 23:49:55 UTC] PHP  16. Illuminate\Database\Schema\Builder->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:94
+[30-Sep-2015 23:49:55 UTC] PHP  17. Illuminate\Database\Schema\Blueprint->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:169
+[30-Sep-2015 23:49:55 UTC] PHP  18. Illuminate\Database\Schema\Blueprint->toSql() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:61
+[30-Sep-2015 23:49:55 UTC] PHP  19. Illuminate\Database\Schema\Grammars\SQLiteGrammar->compileDropColumn() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:89
+[30-Sep-2015 23:49:55 UTC] PHP  20. Illuminate\Database\Connection->getDoctrineSchemaManager() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:239
+[30-Sep-2015 23:49:55 UTC] PHP  21. Illuminate\Database\SQLiteConnection->getDoctrineDriver() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Connection.php:787
+[30-Sep-2015 23:54:26 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOSqlite\Driver' not found in /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/SQLiteConnection.php on line 46
+[30-Sep-2015 23:54:26 UTC] PHP Stack trace:
+[30-Sep-2015 23:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/artisan:0
+[30-Sep-2015 23:54:26 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/se-resturant/resturant/artisan:59
+[30-Sep-2015 23:54:26 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[30-Sep-2015 23:54:26 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[30-Sep-2015 23:54:26 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[30-Sep-2015 23:54:26 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[30-Sep-2015 23:54:26 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[30-Sep-2015 23:54:26 UTC] PHP   8. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[30-Sep-2015 23:54:26 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:70
+[30-Sep-2015 23:54:26 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:82
+[30-Sep-2015 23:54:26 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:111
+[30-Sep-2015 23:54:26 UTC] PHP  12. UpdateOrderTable->up() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:135
+[30-Sep-2015 23:54:26 UTC] PHP  13. Illuminate\Support\Facades\Schema::table() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:19
+[30-Sep-2015 23:54:26 UTC] PHP  14. Illuminate\Support\Facades\Facade::__callStatic() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:19
+[30-Sep-2015 23:54:26 UTC] PHP  15. Illuminate\Database\Schema\Builder->table() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:3269
+[30-Sep-2015 23:54:26 UTC] PHP  16. Illuminate\Database\Schema\Builder->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:94
+[30-Sep-2015 23:54:26 UTC] PHP  17. Illuminate\Database\Schema\Blueprint->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:169
+[30-Sep-2015 23:54:26 UTC] PHP  18. Illuminate\Database\Schema\Blueprint->toSql() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:61
+[30-Sep-2015 23:54:26 UTC] PHP  19. Illuminate\Database\Schema\Grammars\SQLiteGrammar->compileDropColumn() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:89
+[30-Sep-2015 23:54:26 UTC] PHP  20. Illuminate\Database\Connection->getDoctrineSchemaManager() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:239
+[30-Sep-2015 23:54:26 UTC] PHP  21. Illuminate\Database\SQLiteConnection->getDoctrineDriver() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Connection.php:787
+[30-Sep-2015 23:59:56 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOSqlite\Driver' not found in /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/SQLiteConnection.php on line 46
+[30-Sep-2015 23:59:56 UTC] PHP Stack trace:
+[30-Sep-2015 23:59:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/artisan:0
+[30-Sep-2015 23:59:56 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/se-resturant/resturant/artisan:59
+[30-Sep-2015 23:59:56 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[30-Sep-2015 23:59:56 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[30-Sep-2015 23:59:56 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[30-Sep-2015 23:59:56 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[30-Sep-2015 23:59:56 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[30-Sep-2015 23:59:56 UTC] PHP   8. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[30-Sep-2015 23:59:56 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:70
+[30-Sep-2015 23:59:56 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:82
+[30-Sep-2015 23:59:56 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:111
+[30-Sep-2015 23:59:56 UTC] PHP  12. UpdateOrderTable->up() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:135
+[30-Sep-2015 23:59:56 UTC] PHP  13. Illuminate\Support\Facades\Schema::table() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:18
+[30-Sep-2015 23:59:56 UTC] PHP  14. Illuminate\Support\Facades\Facade::__callStatic() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:18
+[30-Sep-2015 23:59:56 UTC] PHP  15. Illuminate\Database\Schema\Builder->table() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:3269
+[30-Sep-2015 23:59:56 UTC] PHP  16. Illuminate\Database\Schema\Builder->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:94
+[30-Sep-2015 23:59:56 UTC] PHP  17. Illuminate\Database\Schema\Blueprint->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:169
+[30-Sep-2015 23:59:56 UTC] PHP  18. Illuminate\Database\Schema\Blueprint->toSql() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:61
+[30-Sep-2015 23:59:56 UTC] PHP  19. Illuminate\Database\Schema\Grammars\SQLiteGrammar->compileDropColumn() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:89
+[30-Sep-2015 23:59:56 UTC] PHP  20. Illuminate\Database\Connection->getDoctrineSchemaManager() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:239
+[30-Sep-2015 23:59:56 UTC] PHP  21. Illuminate\Database\SQLiteConnection->getDoctrineDriver() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Connection.php:787
+[01-Oct-2015 00:06:03 UTC] PHP Fatal error:  Class 'Doctrine\DBAL\Driver\PDOSqlite\Driver' not found in /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/SQLiteConnection.php on line 46
+[01-Oct-2015 00:06:03 UTC] PHP Stack trace:
+[01-Oct-2015 00:06:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/artisan:0
+[01-Oct-2015 00:06:03 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/se-resturant/resturant/artisan:59
+[01-Oct-2015 00:06:03 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[01-Oct-2015 00:06:03 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[01-Oct-2015 00:06:03 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[01-Oct-2015 00:06:03 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[01-Oct-2015 00:06:03 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[01-Oct-2015 00:06:03 UTC] PHP   8. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[01-Oct-2015 00:06:03 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:70
+[01-Oct-2015 00:06:03 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:82
+[01-Oct-2015 00:06:03 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:111
+[01-Oct-2015 00:06:03 UTC] PHP  12. UpdateOrderTable->up() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:135
+[01-Oct-2015 00:06:03 UTC] PHP  13. Illuminate\Support\Facades\Schema::table() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:19
+[01-Oct-2015 00:06:03 UTC] PHP  14. Illuminate\Support\Facades\Facade::__callStatic() /home/ubuntu/workspace/se-resturant/resturant/app/database/migrations/2015_09_30_233349_update_order_table.php:19
+[01-Oct-2015 00:06:03 UTC] PHP  15. Illuminate\Database\Schema\Builder->table() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:3269
+[01-Oct-2015 00:06:03 UTC] PHP  16. Illuminate\Database\Schema\Builder->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:94
+[01-Oct-2015 00:06:03 UTC] PHP  17. Illuminate\Database\Schema\Blueprint->build() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:169
+[01-Oct-2015 00:06:03 UTC] PHP  18. Illuminate\Database\Schema\Blueprint->toSql() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:61
+[01-Oct-2015 00:06:03 UTC] PHP  19. Illuminate\Database\Schema\Grammars\SQLiteGrammar->compileDropColumn() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:89
+[01-Oct-2015 00:06:03 UTC] PHP  20. Illuminate\Database\Connection->getDoctrineSchemaManager() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php:239
+[01-Oct-2015 00:06:03 UTC] PHP  21. Illuminate\Database\SQLiteConnection->getDoctrineDriver() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Connection.php:787
+[01-Oct-2015 14:16:18 UTC] PHP Fatal error:  Class 'DeleteColumnOrderItemsTable' not found in /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[01-Oct-2015 14:16:18 UTC] PHP Stack trace:
+[01-Oct-2015 14:16:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/artisan:0
+[01-Oct-2015 14:16:18 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/se-resturant/resturant/artisan:59
+[01-Oct-2015 14:16:18 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[01-Oct-2015 14:16:18 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[01-Oct-2015 14:16:18 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[01-Oct-2015 14:16:18 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[01-Oct-2015 14:16:18 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[01-Oct-2015 14:16:18 UTC] PHP   8. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[01-Oct-2015 14:16:18 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:70
+[01-Oct-2015 14:16:18 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:82
+[01-Oct-2015 14:16:18 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:111
+[01-Oct-2015 14:16:18 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:128
+[01-Oct-2015 14:17:04 UTC] PHP Fatal error:  Class 'ForeignColumnOrderItemsTable' not found in /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
+[01-Oct-2015 14:17:04 UTC] PHP Stack trace:
+[01-Oct-2015 14:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/artisan:0
+[01-Oct-2015 14:17:04 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/se-resturant/resturant/artisan:59
+[01-Oct-2015 14:17:04 UTC] PHP   3. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:124
+[01-Oct-2015 14:17:04 UTC] PHP   4. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:193
+[01-Oct-2015 14:17:04 UTC] PHP   5. Illuminate\Console\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Application.php:889
+[01-Oct-2015 14:17:04 UTC] PHP   6. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:100
+[01-Oct-2015 14:17:04 UTC] PHP   7. Illuminate\Console\Command->execute() /home/ubuntu/workspace/se-resturant/resturant/vendor/symfony/console/Symfony/Component/Console/Command/Command.php:253
+[01-Oct-2015 14:17:04 UTC] PHP   8. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Console/Command.php:112
+[01-Oct-2015 14:17:04 UTC] PHP   9. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:70
+[01-Oct-2015 14:17:04 UTC] PHP  10. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:82
+[01-Oct-2015 14:17:04 UTC] PHP  11. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:111
+[01-Oct-2015 14:17:04 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->resolve() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:128

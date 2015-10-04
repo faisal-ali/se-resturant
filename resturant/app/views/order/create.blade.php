@@ -55,7 +55,7 @@
         </div>
         <div class="cell">Quantity: </div>
         <div class="cell">
-          <input type="text" id="item_qty" name="qty"  value="1" pattern="[1-9]*$" title="Number only" style="width:30px" required/>
+          <input type="text" id="item_qty" name="qty"  value="1" pattern="^[1-9]+$" title="Number only" style="width:30px" required/>
         </div>
         <div class="cell">Price: </div>
         <div class="cell">
@@ -98,8 +98,8 @@ $(function(){
     $('#add_item').click(function() {
       if($('#item_id').val() === "") {
         alert("Please select an item");
-      } else if ($("#item_qty").val() == 0 || $("#item_qty").val() == "") {
-        alert("Please enter a numerical value");
+      } else if (/^[0-9]+$/.test($("#item_qty").val()) === false ) {
+        alert("Please enter a numerical quantity value");
       } else {
         var item_name = $("#item_id option:selected").text();
         var item_quantity = $("#item_qty").val();
