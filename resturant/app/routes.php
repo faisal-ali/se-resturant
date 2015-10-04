@@ -16,9 +16,13 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+Route::get('menu/fetchprice', array('as' => 'menu.fetchPriceAjax', 'uses' => 'MenuController@fetchPriceAjax'));
 Route::resource('menu', 'MenuController');
 
-Route::resource('order', 'OrderController');
+Route::get('order/view', array('as' => 'orderr.view', 'uses' => 'OrderrController@view'));
+Route::get('order/process/{id}', array('as' => 'orderr.process', 'uses' => 'OrderrController@process'));
+Route::resource('order', 'OrderrController');
+Route::post('order/search', array('as' => 'orderr.search', 'uses' => 'OrderrController@search'));
 
 Route::resource('customer', 'CustomerController');
 

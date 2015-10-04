@@ -32,7 +32,21 @@ class CustomerController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$number = Input::get('phone_number');
+		$customer = Customer::where('phone_number' , '=', $number)->first();
+		if ($customer != null) {
+			$error = "customer with the same phone number already exists";
+			return View::make('customer.create')->with(array('error' => $error));
+		} else {
+			$customer = new Customer;
+			$customer->name = Input::get('name');
+			$customer->phone_number = Input::get('phone_number');
+			$customer->address = Input::get('address');
+			$customer->cc_number = Input::get('cc_number');
+			$customer->save();
+			echo $customer;
+			return Redirect::route('order.create', array('cust_id' =>$customer->id));
+		}
 	}
 
 

@@ -51,7 +51,7 @@ Resturant - Customers
         </span>
          <span class="cell">
           {{ Form::open(['method' => 'DELETE', 'action' => ['CustomerController@destroy', $customer->id]]) }}
-            <button type="submit" class="btn" disabled=true>Remove</button>
+            <button type="submit" class="btn">Remove</button>
           {{ Form::close() }}
         </span>
       </div>

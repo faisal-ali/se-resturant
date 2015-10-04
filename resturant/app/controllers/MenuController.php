@@ -54,7 +54,12 @@ class MenuController extends \BaseController {
 		
 	}
 
-
+	public function fetchPriceAjax()
+	{
+		$price = Menu::where('code','=', $_GET["id"])->get();
+	  	echo json_encode($price);
+	}
+	
 	/**
 	 * Show the form for editing the specified resource.
 	 *

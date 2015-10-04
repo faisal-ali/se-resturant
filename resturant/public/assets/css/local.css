@@ -9,6 +9,28 @@ body {
   background: #2b2b2b;
 }
 
+.order_headings{
+  font-weight: bolder;
+  margin: 20px 55px 20px 84px
+}
+
+.total_price_box {
+    margin: 5% 0% 2% 80%;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+
+.no_input_border {
+  border: none;
+}
+
+.error {
+  background-color: #F08612;
+  width: 510px;
+  padding-left: 70px;
+  color: white;
+}
+
 h1 {
   text-align: center;
 }

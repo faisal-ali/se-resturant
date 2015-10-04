@@ -9,7 +9,13 @@ class DailyIntakeController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('daily_intake.index');
+		$orders = Order::all();
+		$daily_intake = 0;
+		foreach($orders as $order){
+			$daily_intake = $daily_intake + $order->total_price;
+		}
+		echo $daily_intake;
+		return View::make('daily_intake.index')->with(array('daily_intake' => $daily_intake));
 	}
 
 

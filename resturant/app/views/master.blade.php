@@ -31,6 +31,9 @@
                         <a href="{{ secure_url('order') }}">Order</a>
                     </li>
                     <li>
+                        <a href="{{ secure_url('order/view') }}">View Orders</a>
+                    </li>
+                    <li>
                         <a href="{{ secure_url('menu') }}">Menu</a>
                     </li>
                     <li>
