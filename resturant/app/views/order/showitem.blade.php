@@ -39,25 +39,8 @@
                 {{ $order->type }}
             </div>
         </div>
-        
         <div class="row">
-            <div class="cell">Processed: </div>
-            <div class="cell">
-                @if ($order->processed === 'true')
-                  Yes
-                @else
-                  No
-                @endif
-            </div>
-        </div>
-        <div class="row">
-            @if ($order->processed === 'false')
-             <span class="cell">
-              {{ Form::open(['method' => 'GET', 'action' => ['OrderrController@process', $order->id]]) }}
-                <button type="submit" class="btn btn-primary">Process</button>
-              {{ Form::close() }}
-            </span>
-            @endif
+           
         </div>
         
         <hr>

@@ -1215,3 +1215,407 @@
 [04-Oct-2015 13:18:37 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
 [04-Oct-2015 13:18:37 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
 [04-Oct-2015 13:18:37 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 02:10:48 UTC] PHP Fatal error:  Class 'Carbon' not found in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 18
+[05-Oct-2015 02:10:48 UTC] PHP Stack trace:
+[05-Oct-2015 02:10:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 02:10:48 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 02:10:48 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 02:10:48 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 02:10:48 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 02:10:48 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 02:10:48 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 02:10:48 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 02:10:48 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 02:10:48 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 02:10:48 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[05-Oct-2015 02:10:48 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:10:48 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:10:48 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[05-Oct-2015 02:10:48 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[05-Oct-2015 02:10:48 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[05-Oct-2015 02:10:48 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:10:48 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:11:08 UTC] PHP Fatal error:  Class 'Carbon' not found in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 18
+[05-Oct-2015 02:11:08 UTC] PHP Stack trace:
+[05-Oct-2015 02:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 02:11:08 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 02:11:08 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 02:11:08 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 02:11:08 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 02:11:08 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 02:11:08 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 02:11:08 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 02:11:08 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 02:11:08 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 02:11:08 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[05-Oct-2015 02:11:08 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:11:08 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:11:08 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[05-Oct-2015 02:11:08 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[05-Oct-2015 02:11:08 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[05-Oct-2015 02:11:08 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:11:08 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:16:01 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::orderBy() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 18
+[05-Oct-2015 02:16:01 UTC] PHP Stack trace:
+[05-Oct-2015 02:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 02:16:01 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 02:16:01 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 02:16:01 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 02:16:01 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 02:16:01 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 02:16:01 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 02:16:01 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 02:16:01 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 02:16:01 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 02:16:01 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[05-Oct-2015 02:16:01 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:16:01 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:16:01 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[05-Oct-2015 02:16:01 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[05-Oct-2015 02:16:01 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[05-Oct-2015 02:16:01 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:16:01 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:52:54 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::orderBy() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 18
+[05-Oct-2015 02:52:54 UTC] PHP Stack trace:
+[05-Oct-2015 02:52:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 02:52:54 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 02:52:54 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 02:52:54 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 02:52:54 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 02:52:54 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 02:52:54 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 02:52:54 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 02:52:54 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 02:52:54 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 02:52:54 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[05-Oct-2015 02:52:54 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:52:54 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:52:54 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[05-Oct-2015 02:52:54 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[05-Oct-2015 02:52:54 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[05-Oct-2015 02:52:54 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:52:54 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:53:04 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::orderBy() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 18
+[05-Oct-2015 02:53:04 UTC] PHP Stack trace:
+[05-Oct-2015 02:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 02:53:04 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 02:53:04 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 02:53:04 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 02:53:04 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 02:53:04 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 02:53:04 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 02:53:04 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 02:53:04 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 02:53:04 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 02:53:04 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[05-Oct-2015 02:53:04 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:53:04 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[05-Oct-2015 02:53:04 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[05-Oct-2015 02:53:04 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[05-Oct-2015 02:53:04 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[05-Oct-2015 02:53:04 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:53:04 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[05-Oct-2015 02:58:06 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 86
+[05-Oct-2015 02:58:06 UTC] PHP Stack trace:
+[05-Oct-2015 02:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 02:58:06 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 02:58:06 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 02:58:06 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 02:58:06 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 02:58:06 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 02:58:06 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 02:58:06 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 02:58:06 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 02:58:06 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 02:58:06 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 02:58:06 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 02:58:06 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 02:58:06 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 02:58:06 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 02:58:06 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 02:58:06 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 02:58:06 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 03:00:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 85
+[05-Oct-2015 03:00:30 UTC] PHP Stack trace:
+[05-Oct-2015 03:00:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 03:00:30 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 03:00:30 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 03:00:30 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 03:00:30 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 03:00:30 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 03:00:30 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 03:00:30 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 03:00:30 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 03:00:30 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 03:00:30 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 03:00:30 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 03:00:30 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 03:00:30 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 03:00:30 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 03:00:30 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 03:00:30 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 03:00:30 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 03:00:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 85
+[05-Oct-2015 03:00:45 UTC] PHP Stack trace:
+[05-Oct-2015 03:00:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 03:00:45 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 03:00:45 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 03:00:45 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 03:00:45 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 03:00:45 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 03:00:45 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 03:00:45 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 03:00:45 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 03:00:45 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 03:00:45 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 03:00:45 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 03:00:45 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 03:00:45 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 03:00:45 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 03:00:45 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 03:00:45 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 03:00:45 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 03:01:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 85
+[05-Oct-2015 03:01:44 UTC] PHP Stack trace:
+[05-Oct-2015 03:01:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 03:01:44 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 03:01:44 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 03:01:44 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 03:01:44 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 03:01:44 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 03:01:44 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 03:01:44 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 03:01:44 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 03:01:44 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 03:01:44 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 03:01:44 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 03:01:44 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 03:01:44 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 03:01:44 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 03:01:44 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 03:01:44 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 03:01:44 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 03:01:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 86
+[05-Oct-2015 03:01:52 UTC] PHP Stack trace:
+[05-Oct-2015 03:01:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 03:01:52 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 03:01:52 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 03:01:52 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 03:01:52 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 03:01:52 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 03:01:52 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 03:01:52 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 03:01:52 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 03:01:52 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 03:01:52 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 03:01:52 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 03:01:52 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 03:01:52 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 03:01:52 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 03:01:52 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 03:01:52 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 03:01:52 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 03:02:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 86
+[05-Oct-2015 03:02:02 UTC] PHP Stack trace:
+[05-Oct-2015 03:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 03:02:02 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 03:02:02 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 03:02:02 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 03:02:02 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 03:02:02 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 03:02:02 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 03:02:02 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 03:02:02 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 03:02:02 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 03:02:02 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 03:02:02 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 03:02:02 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 03:02:02 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 03:02:02 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 03:02:02 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 03:02:02 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 03:02:02 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[05-Oct-2015 03:02:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/2c05494dff99e8158b6d1f532e05313e on line 86
+[05-Oct-2015 03:02:15 UTC] PHP Stack trace:
+[05-Oct-2015 03:02:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[05-Oct-2015 03:02:15 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[05-Oct-2015 03:02:15 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[05-Oct-2015 03:02:15 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[05-Oct-2015 03:02:15 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[05-Oct-2015 03:02:15 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[05-Oct-2015 03:02:15 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[05-Oct-2015 03:02:15 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[05-Oct-2015 03:02:15 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[05-Oct-2015 03:02:15 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[05-Oct-2015 03:02:15 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[05-Oct-2015 03:02:15 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[05-Oct-2015 03:02:15 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[05-Oct-2015 03:02:15 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[05-Oct-2015 03:02:15 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[05-Oct-2015 03:02:15 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[05-Oct-2015 03:02:15 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[05-Oct-2015 03:02:15 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[08-Oct-2015 03:39:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/se-resturant/resturant/app/storage/views/180b23ed42c36e6a658d1c15e0609235 on line 3
+[08-Oct-2015 03:39:05 UTC] PHP Stack trace:
+[08-Oct-2015 03:39:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[08-Oct-2015 03:39:05 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[08-Oct-2015 03:39:05 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[08-Oct-2015 03:39:05 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[08-Oct-2015 03:39:05 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[08-Oct-2015 03:39:05 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[08-Oct-2015 03:39:05 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[08-Oct-2015 03:39:05 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[08-Oct-2015 03:39:05 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[08-Oct-2015 03:39:05 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[08-Oct-2015 03:39:05 UTC] PHP  11. Illuminate\Routing\Router->prepareResponse() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5067
+[08-Oct-2015 03:39:05 UTC] PHP  12. Symfony\Component\HttpFoundation\Response->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5258
+[08-Oct-2015 03:39:05 UTC] PHP  13. Illuminate\Http\Response->setContent() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10011
+[08-Oct-2015 03:39:05 UTC] PHP  14. Illuminate\View\View->render() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:10481
+[08-Oct-2015 03:39:05 UTC] PHP  15. Illuminate\View\View->renderContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9779
+[08-Oct-2015 03:39:05 UTC] PHP  16. Illuminate\View\View->getContents() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9788
+[08-Oct-2015 03:39:05 UTC] PHP  17. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:9801
+[08-Oct-2015 03:39:05 UTC] PHP  18. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:56
+[11-Oct-2015 04:57:45 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 19
+[11-Oct-2015 04:57:45 UTC] PHP Stack trace:
+[11-Oct-2015 04:57:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 04:57:45 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 04:57:45 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 04:57:45 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 04:57:45 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 04:57:45 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 04:57:45 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 04:57:45 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 04:57:45 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 04:57:45 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 04:57:45 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 04:57:45 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 04:57:45 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 04:57:45 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 04:57:45 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->makeController() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5831
+[11-Oct-2015 04:57:45 UTC] PHP  16. Illuminate\Foundation\Application->make() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5842
+[11-Oct-2015 04:57:45 UTC] PHP  17. Illuminate\Container\Container->make() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:583
+[11-Oct-2015 04:57:45 UTC] PHP  18. Illuminate\Container\Container->build() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:205
+[11-Oct-2015 04:57:45 UTC] PHP  19. ReflectionClass->__construct() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:235
+[11-Oct-2015 04:57:45 UTC] PHP  20. spl_autoload_call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:235
+[11-Oct-2015 04:57:45 UTC] PHP  21. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:235
+[11-Oct-2015 04:57:45 UTC] PHP  22. Composer\Autoload\includeFile() /home/ubuntu/workspace/se-resturant/resturant/vendor/composer/ClassLoader.php:301
+[11-Oct-2015 04:59:09 UTC] PHP Fatal error:  Call to undefined function parseInt() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 26
+[11-Oct-2015 04:59:09 UTC] PHP Stack trace:
+[11-Oct-2015 04:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 04:59:09 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 04:59:09 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 04:59:09 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 04:59:09 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 04:59:09 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 04:59:09 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 04:59:09 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 04:59:09 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 04:59:09 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 04:59:09 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 04:59:09 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 04:59:09 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 04:59:09 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 04:59:09 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[11-Oct-2015 04:59:09 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[11-Oct-2015 04:59:09 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 04:59:09 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:02 UTC] PHP Fatal error:  Call to undefined function parseInt() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 27
+[11-Oct-2015 05:00:02 UTC] PHP Stack trace:
+[11-Oct-2015 05:00:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 05:00:02 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 05:00:02 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 05:00:02 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 05:00:02 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 05:00:02 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 05:00:02 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 05:00:02 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 05:00:02 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 05:00:02 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 05:00:02 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 05:00:02 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:02 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:02 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 05:00:02 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[11-Oct-2015 05:00:02 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[11-Oct-2015 05:00:02 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:02 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:12 UTC] PHP Fatal error:  Call to undefined function parseInt() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 28
+[11-Oct-2015 05:00:12 UTC] PHP Stack trace:
+[11-Oct-2015 05:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 05:00:12 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 05:00:12 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 05:00:12 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 05:00:12 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 05:00:12 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 05:00:12 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 05:00:12 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 05:00:12 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 05:00:12 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 05:00:12 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 05:00:12 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:12 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:12 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 05:00:12 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[11-Oct-2015 05:00:12 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[11-Oct-2015 05:00:12 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:12 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:29 UTC] PHP Fatal error:  Call to undefined function parseInt() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 29
+[11-Oct-2015 05:00:29 UTC] PHP Stack trace:
+[11-Oct-2015 05:00:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 05:00:29 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 05:00:29 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 05:00:29 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 05:00:29 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 05:00:29 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 05:00:29 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 05:00:29 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 05:00:29 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 05:00:29 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 05:00:29 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 05:00:29 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:29 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:29 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 05:00:29 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[11-Oct-2015 05:00:29 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[11-Oct-2015 05:00:29 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:29 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:41 UTC] PHP Fatal error:  Call to undefined function parseInt() in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 29
+[11-Oct-2015 05:00:41 UTC] PHP Stack trace:
+[11-Oct-2015 05:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 05:00:41 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 05:00:41 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 05:00:41 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 05:00:41 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 05:00:41 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 05:00:41 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 05:00:41 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 05:00:41 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 05:00:41 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 05:00:41 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 05:00:41 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:41 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:00:41 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 05:00:41 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[11-Oct-2015 05:00:41 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[11-Oct-2015 05:00:41 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:00:41 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:03:46 UTC] PHP Fatal error:  Class 'stdObject' not found in /home/ubuntu/workspace/se-resturant/resturant/app/controllers/DailyIntakeController.php on line 13
+[11-Oct-2015 05:03:46 UTC] PHP Stack trace:
+[11-Oct-2015 05:03:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:0
+[11-Oct-2015 05:03:46 UTC] PHP   2. Illuminate\Foundation\Application->run() /home/ubuntu/workspace/se-resturant/resturant/public/index.php:49
+[11-Oct-2015 05:03:46 UTC] PHP   3. Stack\StackedHttpKernel->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:657
+[11-Oct-2015 05:03:46 UTC] PHP   4. Illuminate\Cookie\Guard->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:11088
+[11-Oct-2015 05:03:46 UTC] PHP   5. Illuminate\Cookie\Queue->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8379
+[11-Oct-2015 05:03:46 UTC] PHP   6. Illuminate\Session\Middleware->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:8432
+[11-Oct-2015 05:03:46 UTC] PHP   7. Illuminate\Foundation\Application->handle() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:7825
+[11-Oct-2015 05:03:46 UTC] PHP   8. Illuminate\Foundation\Application->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:696
+[11-Oct-2015 05:03:46 UTC] PHP   9. Illuminate\Routing\Router->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:715
+[11-Oct-2015 05:03:46 UTC] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5053
+[11-Oct-2015 05:03:46 UTC] PHP  11. Illuminate\Routing\Route->run() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5065
+[11-Oct-2015 05:03:46 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:03:46 UTC] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5398
+[11-Oct-2015 05:03:46 UTC] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5040
+[11-Oct-2015 05:03:46 UTC] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5835
+[11-Oct-2015 05:03:46 UTC] PHP  16. Illuminate\Routing\Controller->callAction() /home/ubuntu/workspace/se-resturant/resturant/bootstrap/compiled.php:5847
+[11-Oct-2015 05:03:46 UTC] PHP  17. call_user_func_array:{/home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[11-Oct-2015 05:03:46 UTC] PHP  18. DailyIntakeController->index() /home/ubuntu/workspace/se-resturant/resturant/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231

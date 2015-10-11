@@ -104,10 +104,11 @@ $(function(){
         var item_name = $("#item_id option:selected").text();
         var item_quantity = $("#item_qty").val();
         var item_price = $("#item_price").val();
-        var item_name_div = '<div class="cell"><input type="text" name="item_name[]" class="no_input_border" value="'+item_name+'"/></div>';
-        var item_quantity_div ='<div class="cell"><input type="text" name="item_quantity[]" class="no_input_border" value="'+item_quantity+'"/></div>';
-        var item_price_div='<div class="cell"><input type="text" name="item_price[]" class="no_input_border" value="'+item_price+'"/></div>';
-        $(".added_items").append('<div class="row">'+item_name_div+item_quantity_div+item_price_div+'</div>');
+        var item_name_div = '<div class="cell"><input type="text" name="item_name[]" class="no_input_border" value="'+item_name+'" disabled="true"/></div>';
+        var item_quantity_div ='<div class="cell"><input type="text" name="item_quantity[]" class="no_input_border" value="'+item_quantity+'" disabled="true"/></div>';
+        var item_price_div='<div class="cell"><input type="text" name="item_price[]" class="no_input_border" value="'+item_price+'" disabled="true"/></div>';
+        var remove_item='<div class="cell"><input type="button" class="btn" value="Remove" onclick="remove_item(this)"/></div>';
+        $(".added_items").append('<div class="row">'+item_name_div+item_quantity_div+item_price_div+remove_item+'</div>');
         update_total(item_quantity, item_price);
       }
     });
@@ -127,7 +128,17 @@ function checkItems() {
     alert("No item selected, Please add an item");
     return false;
   }
+  $('.no_input_border').prop("disabled", false);
   return true;
+}
+
+function remove_item(item) {
+  var qty = $(item).parent().parent().children()[1].children[0].value;
+  var price = $(item).parent().parent().children()[2].children[0].value;
+  var total = parseInt($('#total_price').text())
+  total = total - (parseInt(qty) * parseInt(price));
+  $('#total_price').text(total);
+  $(item).parent().parent().remove();
 }
 
 function fetchPrice(itemId, callback) {

@@ -79,6 +79,7 @@ class OrderrController extends \BaseController {
 	
 	public function view()
 	{
+		echo "inside view ";
 		$orders = Order::all();
 		return View::make('order.view')->with(array('orders' => $orders));
 	}

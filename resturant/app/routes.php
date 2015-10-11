@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return Redirect::route('order.index');
 });
 
 Route::get('menu/fetchprice', array('as' => 'menu.fetchPriceAjax', 'uses' => 'MenuController@fetchPriceAjax'));

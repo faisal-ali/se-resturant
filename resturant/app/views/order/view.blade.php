@@ -21,10 +21,10 @@
         Type
       </div>
       <div class="cell">
-        Total
+        Order Date
       </div>
       <div class="cell">
-        Processed
+        Total
       </div>
       <div class="cell">
         Action
@@ -47,26 +47,15 @@
         {{ $order->type }}
       </div>
       <div class="cell">
-        ${{ $order->total_price }}
+        {{ $order->created_at }}
       </div>
       <div class="cell">
-        @if ($order->processed === 'true')
-          Yes
-        @else
-          No
-        @endif
+        ${{ $order->total_price }}
       </div>
       <div class="cell">
         <span class="cell">
           <button class="btn" onclick="location.href = '/se-resturant/resturant/public/order/{{ $order->id }}'">View</button>  
         </span>
-        @if ($order->processed === 'false')
-         <span class="cell">
-          {{ Form::open(['method' => 'GET', 'action' => ['OrderrController@process', $order->id]]) }}
-            <button type="submit" class="btn btn-primary">Process</button>
-          {{ Form::close() }}
-        </span>
-        @endif
       </div>
     </div>
     @endforeach

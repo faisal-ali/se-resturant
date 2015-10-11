@@ -49,11 +49,6 @@ Resturant - Customers
             <button type="submit" class="btn btn-primary">Edit</button>
           {{ Form::close() }}
         </span>
-         <span class="cell">
-          {{ Form::open(['method' => 'DELETE', 'action' => ['CustomerController@destroy', $customer->id]]) }}
-            <button type="submit" class="btn">Remove</button>
-          {{ Form::close() }}
-        </span>
       </div>
     </div>
     @endforeach
